@@ -1,5 +1,5 @@
-const CACHE = "eduvo-matematicas-github-fbee2169626d";
-const APP_SHELL = ["./","./index.html","./app-LFFNNI2O.js","./chunks/solid-lab-PZFB4RCS.js","./chunks/chunk-RMIRCVGT.js","./app-fbee2169626d.css","./favicon.svg","./eduvo-logo.png","./manifest.webmanifest"];
+const CACHE = "eduvo-matematicas-github-b6b1ddefa73f";
+const APP_SHELL = ["./","./index.html","./app-YZRSQ2Y6.js","./chunks/solid-lab-PZFB4RCS.js","./chunks/chunk-RMIRCVGT.js","./app-b6b1ddefa73f.css","./favicon.svg","./eduvo-logo.png","./manifest.webmanifest"];
 const base = new URL("./", self.location.href);
 const shell = new URL("index.html", base).href;
 
