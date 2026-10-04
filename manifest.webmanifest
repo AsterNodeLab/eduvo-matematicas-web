@@ -1,0 +1,6 @@
+{
+  "id": "./", "name": "EDUVO Matemáticas", "short_name": "EDUVO Math",
+  "lang": "es-MX", "start_url": "./", "scope": "./", "display": "standalone",
+  "background_color": "#f7f8fa", "theme_color": "#006847",
+  "icons": [{ "src": "./eduvo-logo.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" }]
+}
