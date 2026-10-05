@@ -1,5 +1,5 @@
-const CACHE = "eduvo-matematicas-github-fa36bde65cf0";
-const APP_SHELL = ["./","./index.html","./app-NOP7PK76.js","./chunks/solid-lab-BIIGTW52.js","./chunks/archipelago-scene-TZS4XY7B.js","./chunks/chunk-BP4LALDF.js","./chunks/chunk-ZVO6ME7Q.js","./chunks/chunk-RMIRCVGT.js","./app-fa36bde65cf0.css","./eduvo-logo.png","./favicon.svg","./file.svg","./fonts/manrope-latin.woff2","./fonts/OFL.txt","./globe.svg","./manifest.webmanifest","./window.svg"];
+const CACHE = "eduvo-matematicas-github-fff2e8e31c6d";
+const APP_SHELL = ["./","./index.html","./app-NOP7PK76.js","./chunks/solid-lab-BIIGTW52.js","./chunks/archipelago-scene-TZS4XY7B.js","./chunks/chunk-BP4LALDF.js","./chunks/chunk-ZVO6ME7Q.js","./chunks/chunk-RMIRCVGT.js","./app-fff2e8e31c6d.css","./eduvo-logo.png","./favicon.svg","./file.svg","./fonts/manrope-latin.woff2","./fonts/OFL.txt","./globe.svg","./manifest.webmanifest","./window.svg"];
 const base = new URL("./", self.location.href);
 const shell = new URL("index.html", base).href;
 
