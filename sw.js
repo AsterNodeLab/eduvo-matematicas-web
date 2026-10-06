@@ -1,5 +1,5 @@
-const CACHE = "eduvo-matematicas-github-fff2e8e31c6d";
-const APP_SHELL = ["./","./index.html","./app-NOP7PK76.js","./chunks/solid-lab-BIIGTW52.js","./chunks/archipelago-scene-TZS4XY7B.js","./chunks/chunk-BP4LALDF.js","./chunks/chunk-ZVO6ME7Q.js","./chunks/chunk-RMIRCVGT.js","./app-fff2e8e31c6d.css","./eduvo-logo.png","./favicon.svg","./file.svg","./fonts/manrope-latin.woff2","./fonts/OFL.txt","./globe.svg","./manifest.webmanifest","./window.svg"];
+const CACHE = "eduvo-matematicas-github-8d985d4c7752";
+const APP_SHELL = ["./","./index.html","./app-N6SRQ7XY.js","./chunks/solid-lab-K2BJ74JS.js","./chunks/archipelago-scene-TZS4XY7B.js","./chunks/chunk-BP4LALDF.js","./chunks/chunk-ZVO6ME7Q.js","./chunks/chunk-RMIRCVGT.js","./app-8d985d4c7752.css","./eduvo-icon-512.png","./eduvo-logo.png","./eduvo-mark.svg","./favicon.svg","./file.svg","./fonts/atkinson-next-latin.woff2","./fonts/Atkinson-Next-OFL.txt","./fonts/manrope-latin.woff2","./fonts/OFL.txt","./fonts/sora-latin.woff2","./fonts/Sora-OFL.txt","./globe.svg","./manifest.webmanifest","./window.svg"];
 const base = new URL("./", self.location.href);
 const shell = new URL("index.html", base).href;
 
@@ -17,5 +17,5 @@ self.addEventListener("fetch", (event) => {
   if (event.request.mode === "navigate") {
     const offlineShell = () => caches.open(CACHE).then(cache => cache.match(shell));
     event.respondWith(fetch(event.request).then(response => response.ok ? response : offlineShell()).catch(offlineShell));
-  } else event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request)));
+  } else event.respondWith(caches.open(CACHE).then(async cache => (await cache.match(event.request)) || (await caches.match(event.request)) || fetch(event.request)));
 });

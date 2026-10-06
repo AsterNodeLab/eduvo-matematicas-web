@@ -1,6 +1,25 @@
 {
-  "id": "./", "name": "EDUVO Matemáticas", "short_name": "EDUVO Math",
-  "lang": "es-MX", "start_url": "./", "scope": "./", "display": "standalone",
-  "background_color": "#f7f8fa", "theme_color": "#006847",
-  "icons": [{ "src": "./eduvo-logo.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" }]
+  "id": "./",
+  "name": "EDUVO Matemáticas",
+  "short_name": "EDUVO Math",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F7F8F2",
+  "theme_color": "#0A4D3A",
+  "icons": [
+    {
+      "sizes": "any",
+      "purpose": "any",
+      "type": "image/svg+xml",
+      "src": "./eduvo-mark.svg"
+    },
+    {
+      "sizes": "512x512",
+      "purpose": "any maskable",
+      "type": "image/png",
+      "src": "./eduvo-icon-512.png"
+    }
+  ]
 }
